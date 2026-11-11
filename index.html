@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>松竹媒體｜全台交通與家外媒體</title>
+<meta name="description" content="松竹媒體代理全台交通與家外媒體。機場、車站、捷運、公車到影城，一個窗口幫你規劃。">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Noto+Sans+TC:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#services">跳到服務項目</a>
+
+<header class="site-header" id="header" data-tone="dark">
+  <a class="brand" href="#top" aria-label="松竹媒體 首頁">松竹媒體</a>
+  <nav class="nav" id="nav" aria-label="主選單">
+    <a href="#services">服務項目</a>
+    <a href="#why">為什麼找松竹</a>
+    <a href="#process">服務流程</a>
+    <a href="#cases">服務案例</a>
+    <a href="#contact">聯絡我們</a>
+  </nav>
+  <a class="btn btn-primary header-cta" href="#contact">索取方案</a>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">選單</button>
+</header>
+
+<main id="top">
+
+  <!-- 主視覺與六種服務共用一個舞台，隨捲動淡入淡出 -->
+  <div id="showcase">
+
+  <!-- 主視覺 -->
+  <section class="scene scene-hero" data-tone="dark" data-label="首頁" id="hero">
+    <video class="scene-media" autoplay muted loop playsinline poster="assets/hero.jpg" aria-hidden="true">
+      <source src="assets/hero.mp4" type="video/mp4">
+    </video>
+    <div class="scene-copy">
+      <p class="eyebrow">TRANSIT &amp; OUT-OF-HOME MEDIA</p>
+      <h1><span>人在路上，</span><span>品牌就在眼前。</span></h1>
+      <p class="lede">機場、車站、捷運、公車到影城。<br>全台交通與家外媒體，一個窗口幫你規劃。</p>
+    </div>
+    <div class="scene-actions">
+      <a class="btn btn-primary" href="#contact">索取媒體方案</a>
+      <a class="btn btn-light" href="#services">看服務項目</a>
+    </div>
+  </section>
+
+  <!-- 六種服務，每種一屏 -->
+  <div id="services">
+    <section class="scene" data-tone="dark" data-label="台北車站" data-service="station" style="--img:url(assets/station.jpg)">
+      <div class="scene-copy">
+        <span class="badge">獨家代理</span>
+        <h2>台北車站</h2>
+        <p class="lede">每天約五十萬人經過的國家門戶</p>
+      </div>
+      <div class="scene-actions">
+        <a class="btn btn-primary" href="#contact" data-pick="台北車站">索取方案</a>
+        <button class="btn btn-light" data-open="station">了解版位</button>
+      </div>
+    </section>
+
+    <section class="scene" data-tone="dark" data-label="捷運" data-service="metro" style="--img:url(assets/metro.jpg)">
+      <div class="scene-copy">
+        <h2>捷運</h2>
+        <p class="lede">把一座車站變成你的品牌展場</p>
+      </div>
+      <div class="scene-actions">
+        <a class="btn btn-primary" href="#contact" data-pick="捷運">索取方案</a>
+        <button class="btn btn-light" data-open="metro">了解版位</button>
+      </div>
+    </section>
+
+    <section class="scene" data-tone="dark" data-label="公車" data-service="bus" style="--img:url(assets/bus.jpg)">
+      <div class="scene-copy">
+        <h2>公車</h2>
+        <p class="lede">會自己跑遍全城的大看板</p>
+      </div>
+      <div class="scene-actions">
+        <a class="btn btn-primary" href="#contact" data-pick="公車">索取方案</a>
+        <button class="btn btn-light" data-open="bus">了解版位</button>
+      </div>
+    </section>
+
+    <section class="scene" data-tone="dark" data-label="雙層觀光巴士" data-service="decker" style="--img:url(assets/decker.jpg)">
+      <div class="scene-copy">
+        <span class="badge">獨家代理</span>
+        <h2>雙層觀光巴士</h2>
+        <p class="lede">台北最顯眼的一台車</p>
+      </div>
+      <div class="scene-actions">
+        <a class="btn btn-primary" href="#contact" data-pick="雙層觀光巴士">索取方案</a>
+        <button class="btn btn-light" data-open="decker">了解版位</button>
+      </div>
+    </section>
+
+    <section class="scene" data-tone="dark" data-label="機場" data-service="airport" style="--img:url(assets/airport.jpg)">
+      <div class="scene-copy">
+        <h2>國際機場</h2>
+        <p class="lede">跟著旅客走遍航廈的手推車廣告</p>
+      </div>
+      <div class="scene-actions">
+        <a class="btn btn-primary" href="#contact" data-pick="機場">索取方案</a>
+        <button class="btn btn-light" data-open="airport">了解版位</button>
+      </div>
+    </section>
+
+    <section class="scene" data-tone="dark" data-label="影城" data-service="cinema" style="--img:url(assets/cinema.jpg)">
+      <div class="scene-copy">
+        <h2>影城</h2>
+        <p class="lede">沒有人會滑掉的三十秒</p>
+      </div>
+      <div class="scene-actions">
+        <a class="btn btn-primary" href="#contact" data-pick="影城">索取方案</a>
+        <button class="btn btn-light" data-open="cinema">了解版位</button>
+      </div>
+    </section>
+  </div>
+
+  </div><!-- /showcase -->
+
+  <!-- 為什麼找松竹 -->
+  <section class="band band-dark" data-tone="dark" data-label="為什麼找松竹" id="why">
+    <div class="inner">
+      <h2>為什麼找松竹</h2>
+      <div class="why">
+        <article>
+          <h3>一個窗口，跨媒體規劃</h3>
+          <p>不必一種媒體一種媒體分開詢價。告訴我們預算與目標客群，我們把車站、捷運、公車、機場、影城排成一份方案。</p>
+        </article>
+        <article>
+          <h3>手上有獨家版位</h3>
+          <p>台北車站、台北雙層觀光巴士等場域由松竹媒體獨家代理，檔期與版位直接掌握。</p>
+        </article>
+        <article>
+          <h3>從提案做到上刊結案</h3>
+          <p>洽談、提案、製作、上刊一次完成，結案附上刊照片與清冊。</p>
+        </article>
+      </div>
+      <dl class="stats">
+        <div><dt>合作客運業者</dt><dd>15<small>+</small></dd></div>
+        <div><dt>可查詢公車路線</dt><dd>576</dd></div>
+        <div><dt>合作影城</dt><dd>27</dd></div>
+        <div><dt>服務一次規劃</dt><dd>6<small>種</small></dd></div>
+      </dl>
+      <p class="fine">＊數字為暫定，上線前更新。</p>
+    </div>
+  </section>
+
+  <!-- 服務流程 -->
+  <section class="band" data-tone="light" data-label="服務流程" id="process">
+    <div class="inner">
+      <h2>從洽談到上刊，四個步驟</h2>
+      <ol class="steps">
+        <li><h3>洽談需求</h3><p>了解你的品牌目標、預算與想曝光的地區。</p></li>
+        <li><h3>提案報價</h3><p>提供媒體組合、路線或版位建議與詳細報價。</p></li>
+        <li><h3>排程製作</h3><p>確認合約後安排輸出製作，同步排定上刊時程。</p></li>
+        <li><h3>上刊執行</h3><p>上刊完成後提供照片與清冊，全程可追蹤。</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 服務案例（預留） -->
+  <section class="band band-soft" data-tone="light" data-label="服務案例" id="cases">
+    <div class="inner">
+      <h2>服務案例</h2>
+      <p class="sub">案例整理中。想先看各服務的實景資料，歡迎直接聯絡我們。</p>
+      <div class="cases" aria-label="案例預留位">
+        <div class="case-slot"><span>案例預留位</span></div>
+        <div class="case-slot"><span>案例預留位</span></div>
+        <div class="case-slot"><span>案例預留位</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 聯絡 -->
+  <section class="band" data-tone="light" data-label="聯絡我們" id="contact">
+    <div class="inner contact">
+      <div>
+        <h2>告訴我們你想讓誰看到</h2>
+        <p class="sub">留下聯絡方式與需求，我們會提供媒體建議與報價。</p>
+        <address>
+          松竹媒體股份有限公司<br>
+          臺北市松山區南京東路3段248號3樓之1<br>
+          <span class="todo">電話與信箱待指定</span>
+        </address>
+      </div>
+      <form id="contactForm" novalidate>
+        <div class="field"><label for="f-company">公司名稱</label><input id="f-company" name="company" autocomplete="organization" required></div>
+        <div class="row">
+          <div class="field"><label for="f-name">聯絡人</label><input id="f-name" name="name" autocomplete="name" required></div>
+          <div class="field"><label for="f-tel">電話</label><input id="f-tel" name="tel" type="tel" autocomplete="tel" required></div>
+        </div>
+        <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email"></div>
+        <fieldset class="field">
+          <legend>想了解的服務（可複選）</legend>
+          <div class="chips">
+            <label><input type="checkbox" name="svc" value="台北車站"><span>台北車站</span></label>
+            <label><input type="checkbox" name="svc" value="捷運"><span>捷運</span></label>
+            <label><input type="checkbox" name="svc" value="公車"><span>公車</span></label>
+            <label><input type="checkbox" name="svc" value="雙層觀光巴士"><span>雙層觀光巴士</span></label>
+            <label><input type="checkbox" name="svc" value="機場"><span>機場</span></label>
+            <label><input type="checkbox" name="svc" value="影城"><span>影城</span></label>
+            <label><input type="checkbox" name="svc" value="還不確定"><span>還不確定</span></label>
+          </div>
+        </fieldset>
+        <div class="field"><label for="f-msg">需求說明</label><textarea id="f-msg" name="msg" rows="4" placeholder="例如：新品上市，想在大台北曝光一個月"></textarea></div>
+        <button class="btn btn-primary btn-wide" type="submit">送出</button>
+        <p class="form-note" id="formNote" role="status" hidden></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <span>© 2026 松竹媒體股份有限公司</span>
+  <span>首頁原型，僅供內部確認</span>
+</footer>
+
+<nav class="dots" id="dots" aria-label="頁面段落"></nav>
+
+<dialog class="sheet" id="sheet" aria-labelledby="sheetTitle">
+  <button class="sheet-close" id="sheetClose" aria-label="關閉">關閉</button>
+  <div class="sheet-img" id="sheetImg" role="img"></div>
+  <div class="sheet-body">
+    <h2 id="sheetTitle"></h2>
+    <p id="sheetLead"></p>
+    <h3>版位類型</h3>
+    <ul id="sheetList"></ul>
+    <h3>涵蓋範圍</h3>
+    <p id="sheetArea"></p>
+    <a class="btn btn-primary" id="sheetCta" href="#contact">索取這項服務的方案</a>
+  </div>
+</dialog>
+
+<script src="main.js"></script>
+</body>
+</html>
