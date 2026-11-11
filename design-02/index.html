@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="assets/hero-concept.jpg">
+  <link rel="preload" as="image" href="assets/bus-optimized.jpg">
   <link rel="stylesheet" href="styles.css">
   <script src="main.js" defer></script>
 </head>
@@ -23,7 +24,21 @@
 </header>
 <main id="main">
   <section class="hero" id="top" aria-labelledby="hero-title">
-    <div class="hero-photo"><img src="assets/hero-concept.jpg" width="1536" height="1024" alt="台北街頭的紅色雙層觀光巴士，AI 優化概念影像" fetchpriority="high"><div class="hero-tint"></div></div>
+    <div class="hero-photo" aria-label="首頁背景輪播展示">
+      <img class="hero-slide is-active" src="assets/hero-concept.jpg" width="1536" height="1024" alt="台北街頭的紅色雙層觀光巴士，AI 優化概念影像" fetchpriority="high">
+      <img class="hero-slide" src="assets/bus-optimized.jpg" width="1440" height="1080" alt="街頭公車車身廣告，AI 優化版位示意" loading="lazy">
+      <img class="hero-slide" src="assets/metro-optimized.jpg" width="1440" height="1080" alt="捷運站內整合壁面與燈箱廣告，AI 優化版位示意" loading="lazy">
+      <img class="hero-slide" src="assets/station-optimized.jpg" width="1440" height="1080" alt="台北車站大廳廣告版位，AI 優化版位示意" loading="lazy">
+      <img class="hero-slide" src="assets/airport-optimized.jpg" width="1440" height="1080" alt="國際機場行李手推車廣告版位，AI 優化版位示意" loading="lazy">
+      <div class="hero-tint"></div>
+      <div class="hero-indicators" role="tablist" aria-label="首頁背景輪播指示">
+        <button type="button" role="tab" aria-selected="true" aria-label="切換至雙層觀光巴士照片" class="is-active" data-slide="0"></button>
+        <button type="button" role="tab" aria-selected="false" aria-label="切換至公車廣告照片" data-slide="1"></button>
+        <button type="button" role="tab" aria-selected="false" aria-label="切換至捷運廣告照片" data-slide="2"></button>
+        <button type="button" role="tab" aria-selected="false" aria-label="切換至台北車站照片" data-slide="3"></button>
+        <button type="button" role="tab" aria-selected="false" aria-label="切換至機場手推車照片" data-slide="4"></button>
+      </div>
+    </div>
     <div class="hero-copy">
       <h1 id="hero-title">人在路上，<br>品牌就在眼前。</h1>
       <p>全台交通與家外媒體。<br>從機場到巷口，一個窗口幫你規劃。</p>
