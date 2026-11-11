@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="description" content="松竹媒體官網設計提案：全台交通與家外媒體，一個窗口規劃機場、車站、捷運、公車與影城。">
+  <title>松竹媒體｜讓品牌走進日常 · 設計提案 02</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/hero-concept.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">跳到主要內容</a>
+<header class="header">
+  <a class="brand" href="#top" aria-label="松竹媒體首頁"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>松竹媒體<small>SONGZHU MEDIA</small></span></a>
+  <nav id="navigation" aria-label="主選單"><a href="#media">媒體場域</a><a href="#network">路網規劃</a><a href="#about">關於松竹</a></nav>
+  <a class="button header-action" href="#contact">索取媒體方案 <span aria-hidden="true">↗</span></a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="navigation" hidden>選單</button>
+</header>
+<main id="main">
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="hero-photo"><img src="assets/hero-concept.jpg" width="1536" height="1024" alt="台北街頭的紅色雙層觀光巴士，AI 優化概念影像" fetchpriority="high"><div class="hero-tint"></div></div>
+    <div class="hero-copy">
+      <h1 id="hero-title">人在路上，<br>品牌就在眼前。</h1>
+      <p>全台交通與家外媒體。<br>從機場到巷口，一個窗口幫你規劃。</p>
+      <a class="button" href="#media">探索媒體場域 <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="hero-word" aria-hidden="true">IN REAL LIFE.</div>
+    <div class="hero-bottom"><span>把品牌，帶進每一天。</span><a href="#media" aria-label="向下探索媒體場域">探索更多 <span aria-hidden="true">↓</span></a></div>
+  </section>
+
+  <section class="intro section-space" id="about">
+    <h2 class="reveal">一個窗口，<br>整座城市的可能。</h2>
+    <div class="intro-copy reveal"><p>廣告主需要的是一份完整的家外方案。松竹把車站、捷運、公車、機場與影城的媒體資源，整合成一個規劃窗口。</p><p>告訴我們想接觸誰、在哪裡曝光，從媒體組合到上刊執行，我們陪你把品牌帶進日常。</p><a class="text-link" href="#process">了解合作流程 <span aria-hidden="true">↗</span></a></div>
+  </section>
+
+  <section class="media-section section-space" id="media">
+    <div class="section-heading"><h2 class="reveal">你的受眾，<br>下一站在哪裡？</h2><p class="reveal">從通勤、旅行到休閒，<br>找到適合品牌出現的場域。</p></div>
+    <div class="media-tabs" role="group" aria-label="選擇媒體場域" hidden>
+      <button type="button" data-media="station" aria-pressed="true">車站</button><button type="button" data-media="metro" aria-pressed="false">捷運</button><button type="button" data-media="bus" aria-pressed="false">公車</button><button type="button" data-media="decker" aria-pressed="false">雙層巴士</button><button type="button" data-media="airport" aria-pressed="false">機場</button><button type="button" data-media="cinema" aria-pressed="false">影城</button>
+    </div>
+    <div class="media-feature" id="media-panel">
+      <div class="media-image"><img id="media-image" src="assets/station-optimized.jpg" alt="台北車站大廳廣告版位" width="1440" height="1080" loading="lazy"><span class="image-caption" id="media-caption">Taipei Main Station</span></div>
+      <div class="media-copy"><div id="media-description" aria-live="polite" aria-atomic="true"><h3 id="media-title">台北車站</h3><p id="media-lead">讓品牌，成為旅程的起點。</p><p id="media-body">高鐵、臺鐵、捷運與客運在這裡交會。沿著旅客動線配置燈箱、壁貼與大型版位，讓品牌走進往來的日常。</p><dl><div><dt>場域範圍</dt><dd id="media-area">高鐵臺鐵台北站大廳與 B1</dd></div><div><dt>媒體形式</dt><dd id="media-formats">大型吊掛、燈箱、壁貼、數位屏幕</dd></div></dl></div><a class="button button-white" id="media-inquiry" href="#contact">規劃車站廣告 <span aria-hidden="true">↗</span></a></div>
+    </div>
+    <noscript><p class="no-script">另有捷運、公車、雙層觀光巴士、機場手推車與影城映前廣告。請於下方需求摘要填寫想了解的媒體。</p></noscript>
+  </section>
+
+  <section class="scene-section section-space" id="spaces">
+    <div class="section-heading"><h2 class="reveal">城市，就是<br>品牌的展場。</h2><p class="reveal">放大一個畫面，也延伸一段體驗。<br>從站內到街頭，看見媒體的不同尺度。</p></div>
+    <div class="scene-grid">
+      <a class="scene scene-large reveal" href="#media" data-select="metro"><div class="scene-photo"><img src="assets/metro-optimized.jpg" alt="捷運站內整合壁面與燈箱的廣告呈現" width="1440" height="1080" loading="lazy"></div><div class="scene-label"><h3>讓整座車站，說你的故事。</h3><span>捷運場域 <span aria-hidden="true">↗</span></span></div></a>
+      <a class="scene scene-small reveal" href="#media" data-select="bus"><div class="scene-photo"><img src="assets/bus-optimized.jpg" alt="街頭公車車身廣告" width="1440" height="1080" loading="lazy"></div><div class="scene-label"><h3>跟著城市，一起移動。</h3><span>公車媒體 <span aria-hidden="true">↗</span></span></div></a>
+      <a class="scene scene-wide reveal" href="#media" data-select="airport"><div class="scene-photo"><img src="assets/airport-optimized.jpg" alt="機場行李手推車廣告版位" width="1440" height="1080" loading="lazy"></div><div class="scene-label"><h3>從出發，到抵達。</h3><span>機場媒體 <span aria-hidden="true">↗</span></span></div></a>
+    </div>
+    <p class="asset-note">場域影像經 AI 優化，僅供設計與版位示意；非本公司新案例或成效證明。</p>
+  </section>
+
+  <section class="network-section" id="network">
+    <div class="network-photo"><img src="assets/decker-optimized.jpg" alt="行經台北街頭的雙層巴士" width="1440" height="960" loading="lazy"></div>
+    <div class="network-copy"><h2 class="reveal">跟著客人的日常，<br>找到品牌的路線。</h2><p class="reveal">你的客人住哪一區、在哪裡上班，就從那些動線開始規劃。依商圈、行政區與通勤需求，搭配公車路線與沿途場域。</p><div class="network-choices" aria-label="選擇規劃地區"><a href="#contact" data-region="大台北">大台北 <span aria-hidden="true">↗</span></a><a href="#contact" data-region="台中">台中 <span aria-hidden="true">↗</span></a><a href="#contact" data-region="高雄">高雄 <span aria-hidden="true">↗</span></a></div><p class="small-note">選擇地區，帶入下方需求摘要。完整路網查詢將於後續階段整合。</p></div>
+  </section>
+
+  <section class="process-section section-space" id="process">
+    <div class="section-heading"><h2 class="reveal">從一個想法，<br>到真正被看見。</h2><p class="reveal">從提案做到上刊結案，<br>每個環節，都有同一個團隊接住。</p></div>
+    <ol class="process-list"><li class="reveal"><h3>洽談需求</h3><p>了解品牌目標、預算與想曝光的地區。</p></li><li class="reveal"><h3>提案報價</h3><p>規劃媒體組合、路線與版位，提供費用建議。</p></li><li class="reveal"><h3>排程製作</h3><p>確認方案後，安排素材製作與上刊時程。</p></li><li class="reveal"><h3>上刊執行</h3><p>提供上刊照片與清冊，讓執行過程有據可查。</p></li></ol>
+  </section>
+
+  <section class="contact-section section-space" id="contact">
+    <div class="contact-copy"><h2>告訴我們，<br>你想讓誰看到。</h2><p>從一個地區、一種媒體，<br>或一個還沒成形的想法開始。</p><p class="small-note">設計提案示範：可整理並複製需求，<br>此頁不會送出或儲存個人資料。</p></div>
+    <form id="brief-form"><div class="field-row"><label>想了解的媒體<select id="brief-media" name="media"><option>還不確定</option><option>台北車站</option><option>捷運</option><option>公車</option><option>雙層觀光巴士</option><option>國際機場</option><option>影城</option><option>跨媒體整合</option></select></label><label>預計曝光地區<select id="brief-region" name="region"><option>尚未決定</option><option>大台北</option><option>台中</option><option>高雄</option><option>全台</option></select></label></div><label for="brief-message">需求說明</label><textarea id="brief-message" name="message" rows="3" placeholder="例如：新品上市，希望接觸大台北通勤族，預計曝光一個月。"></textarea><button class="button button-white" type="submit" disabled>產生需求摘要 <span aria-hidden="true">↗</span></button><div id="brief-result" hidden><label for="brief-text">你的需求摘要</label><textarea id="brief-text" rows="5" readonly></textarea><button id="copy-brief" type="button" class="text-link">複製摘要</button></div><p id="brief-status" role="status"></p><noscript><p>此摘要工具需要 JavaScript；你仍可填寫內容並手動複製。</p></noscript></form>
+  </section>
+</main>
+<footer><div class="footer-top"><a class="brand" href="#top">松竹媒體</a><a href="../">原設計版本</a><a href="../proposal/">官網提案文件</a></div><div class="footer-word" aria-hidden="true">SONGZHU<span>↗</span></div><div class="footer-bottom"><span>© 2026 松竹媒體股份有限公司</span><span>設計提案 02 · 文字與影像僅供方向確認</span></div><p class="asset-note">影像以既有素材經 AI 優化，正式版位、代理範圍及聯絡資訊以上線前確認資料為準。</p></footer>
+</body>
+</html>
